@@ -30,4 +30,6 @@ Instructions;
 (6) Schedule the "SQL2AEH.exe" in a SQL Agent Job on the source SQL Server machine
 
 
-NOTE TO CODE: I am not a seasoned c# developer.  As such the application code is provided free without any support or warranty of any kind.   The code has not been thoroughly tested and is not considered production ready.   The code is provided free of charge and can be reused in any way you wish.   Please check my the disclaimer in my blog post above to learn more.
+NOTE 1: The application code is provided free without any support or warranty of any kind.   The code has not been thoroughly tested and is not considered production ready.   The code is provided free of charge and can be reused in any way you wish.   Please check my the disclaimer in my blog post above to learn more.
+
+NOTE 2: This code is based on the below great blog post by Spyros Sakellariadis which gave me inspiration and starter code for my streaming ETL solution.  Excellent post.  See here – https://azure.microsoft.com/en-us/resources/samples/event-hubs-dotnet-import-from-sql/
