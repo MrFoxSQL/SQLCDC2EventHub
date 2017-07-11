@@ -3,7 +3,9 @@
 Send SQL Change Data Capture (CDC) system tracked data changes into an Azure Event Hub for downstream processing
 
 Please see associated blog post for more information on this application
-https://mrfoxsql.wordpress.com/TBC
+
+https://mrfoxsql.wordpress.com/2017/07/12/streaming-etl-send-sql-change-data-capture-cdc-to-azure-event-hub/
+
 
 Instructions;
 
