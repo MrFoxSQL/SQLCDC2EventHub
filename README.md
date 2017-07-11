@@ -1,4 +1,4 @@
-# SQL CDC 2 Event Hub
+# SQL CDC 2 Azure Event Hub
 
 Send SQL Change Data Capture (CDC) system tracked data changes into an Azure Event Hub for downstream processing
 
@@ -9,7 +9,7 @@ Instructions;
 (1) Download the solution files
 (2) Open the solution in Visual Studio (2015)
 (3) Edit the "app.config" file...
-    - ExecutionControl - 1 = run continuously, 0 = run once then exit
+- ExecutionControl - 1 = run continuously, 0 = run once then exit
     - ExecutionControlSleepMs - milliseconds sleep between each iteration when program is set to run continuously
     - DataTableName - the name of the source SQL Server table in "owner.table" format
     - SQLBatchSize - the number of SQL CDC change rows to bundle into a single JSON Event Hub message
