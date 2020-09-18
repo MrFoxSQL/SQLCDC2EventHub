@@ -133,3 +133,4 @@ $RECYCLE.BIN/
 _NCrunch*
 
 App.local.config
+SQLCDC2EventHub/SQL2AEH/.vs
