@@ -13,11 +13,11 @@ Instructions;
 
 (2) Open the solution in Visual Studio (2015)
 
-(3) Edit the "app.config" file...
+(3) Add a new file App.local.config and update those settings. Your secrets wonts be save to source control as this file is .gitignored.
 
 - ExecutionControl - 1 = run continuously, 0 = run once then exit
 - ExecutionControlSleepMs - milliseconds sleep between each iteration when program is set to run continuously
-- DataTableName - the name of the source SQL Server table in "owner.table" format
+- DataTableName - the name of the source SQL Server table in "owner.table" format. Can be more than one table "owner.table, owner.table2".
 - SQLBatchSize - the number of SQL CDC change rows to bundle into a single JSON Event Hub message
 - sqlDatabaseConnectionString - the connection string for the source SQL Server
 - Microsoft.ServiceBus.EventHubToUse - the name of the target Azure Event Hub
